@@ -1,0 +1,54 @@
+.upload-card {
+  border-radius: 12px;
+  border: 1px dashed #d1d5db;
+  background: #f9fafb;
+  padding: 12px;
+  min-width: 200px;
+}
+
+.upload-inner {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 4px;
+  cursor: pointer;
+}
+
+.upload-title {
+  font-size: 15px;
+  font-weight: 600;
+  color: #111827;
+}
+
+.upload-subtitle {
+  font-size: 12px;
+  color: #6b7280;
+}
+
+.upload-status {
+  margin-top: 6px;
+  font-size: 12px;
+  color: #4b5563;
+}
+
+.upload-preview {
+  margin-top: 8px;
+  max-width: 100%;
+  max-height: 80px;
+}
+
+.upload-preview img {
+  max-width: 100%;
+  max-height: 80px;
+  object-fit: contain;
+  border-radius: 4px;
+}
+
+.upload-error {
+  margin-top: 6px;
+  font-size: 12px;
+  color: #b91c1c;
+}
+
+

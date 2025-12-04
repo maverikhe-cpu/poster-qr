@@ -1,0 +1,98 @@
+.app-root {
+  min-height: 100vh;
+  background: #f3f4f6;
+}
+
+.app-main {
+  max-width: 1440px;
+  margin: 0 auto;
+  padding: 16px 24px 40px;
+  display: flex;
+  gap: 16px;
+}
+
+.sidebar {
+  width: 280px;
+  flex-shrink: 0;
+  border-radius: 12px;
+  border: 1px solid #e5e7eb;
+  background: #ffffff;
+  padding: 16px 14px 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.sidebar-section {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.sidebar-title {
+  margin: 0;
+  font-size: 14px;
+  font-weight: 600;
+  color: #374151;
+}
+
+.primary-btn {
+  width: 100%;
+  border-radius: 8px;
+  border: none;
+  padding: 10px 14px;
+  font-size: 14px;
+  font-weight: 600;
+  background: #2563eb;
+  color: #ffffff;
+  cursor: pointer;
+}
+
+.primary-btn:disabled {
+  cursor: not-allowed;
+  opacity: 0.5;
+}
+
+.canvas-layout {
+  flex: 1;
+  min-width: 0;
+  display: flex;
+  flex-direction: column;
+}
+
+.canvas-section {
+  margin-top: 8px;
+}
+.canvas-toolbar {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  margin-bottom: 8px;
+  font-size: 13px;
+  color: #4b5563;
+}
+
+.canvas-zoom-label {
+  margin-right: 4px;
+}
+
+.canvas-zoom-btn {
+  width: 24px;
+  height: 24px;
+  border-radius: 9999px;
+  border: 1px solid #d1d5db;
+  background: #ffffff;
+  cursor: pointer;
+  padding: 0;
+  line-height: 1;
+}
+
+.canvas-zoom-btn:hover {
+  background: #f3f4f6;
+}
+
+.canvas-zoom-value {
+  min-width: 42px;
+  text-align: center;
+}
+

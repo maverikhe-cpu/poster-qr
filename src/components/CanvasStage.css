@@ -1,0 +1,16 @@
+.canvas-wrapper {
+  margin-top: 4px;
+  border-radius: 12px;
+  border: 1px solid #e5e7eb;
+  overflow: hidden;
+  background: #f9fafb;
+  transform-origin: center top;
+}
+
+.canvas-wrapper canvas {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+

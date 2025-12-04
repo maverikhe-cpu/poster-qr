@@ -1,0 +1,44 @@
+.header-bar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 12px 24px;
+  border-bottom: 1px solid #e5e7eb;
+  background: #ffffff;
+}
+
+.header-left .logo {
+  font-size: 18px;
+  font-weight: 700;
+  color: #111827;
+}
+
+.header-right {
+  display: flex;
+  gap: 12px;
+  align-items: center;
+}
+
+.text-btn {
+  border: none;
+  background: transparent;
+  color: #4b5563;
+  font-size: 14px;
+  cursor: pointer;
+  padding: 6px 10px;
+}
+
+.outline-btn {
+  border-radius: 9999px;
+  border: 1px solid #d1d5db;
+  background: #ffffff;
+  padding: 6px 14px;
+  font-size: 14px;
+  cursor: pointer;
+}
+
+.outline-btn:hover {
+  background: #f3f4f6;
+}
+
+
