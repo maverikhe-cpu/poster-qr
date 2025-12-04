@@ -4,7 +4,7 @@ export function HeaderBar({ onClear }: { onClear: () => void }) {
   return (
     <header className="header-bar">
       <div className="header-left">
-        <span className="logo">Post QR</span>
+        <span className="logo">海报二维码工具</span>
       </div>
       <div className="header-right">
         <button
